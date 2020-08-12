@@ -1,0 +1,6 @@
+node_modules
+.babelrc
+.gitignore
+.env
+.prettierignore
+src-public

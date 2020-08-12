@@ -1,0 +1,14 @@
+version: "3"
+services:
+  mongo:
+    image: "mongo"
+    ports:
+      - "4000:27017"
+
+  app:
+    build: .
+    ports:
+      - "5000:5000"
+    environment:
+      - MONGODB_URL=mongodb://mongo:27017/db
+      - SECRET=665f94106e694ea481ab21ae4e70674d
