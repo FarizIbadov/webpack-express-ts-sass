@@ -1,7 +1,7 @@
 {
-  "name": "webpack-typescript-sass",
+  "name": "webpack-typescript-sass-express",
   "version": "1.0.0",
-  "description": "",
+  "description": "Server By Me",
   "main": "./dist/app.js",
   "scripts": {
     "dev": "concurrently \"webpack -w \" \" npm run server:dev \" \" nodemon ./dist/app.js \" ",
@@ -14,7 +14,7 @@
     "last 2 versions"
   ],
   "keywords": [],
-  "author": "",
+  "author": "Fariz Ibadov",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.10.4",
