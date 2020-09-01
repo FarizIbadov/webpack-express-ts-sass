@@ -27,7 +27,7 @@ module.exports = {
         ],
       },
       {
-        test: /\.ts$/,
+        test: /\.(t|j)s$/,
         use: [
           { loader: "babel-loader" },
           {
